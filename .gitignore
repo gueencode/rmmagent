@@ -1,0 +1,11 @@
+*.exe
+*.db
+*.log
+*.7z
+*.zip
+gueenrmm
+*.syso
+versioninfo.json
+build/
+*.sh
+*.bat
