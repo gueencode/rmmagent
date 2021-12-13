@@ -8,9 +8,10 @@ import (
 	"fmt"
 	"sync"
 
+	rmm "rmmagent/shared"
+
 	ole "github.com/go-ole/go-ole"
 	"github.com/go-ole/go-ole/oleutil"
-	rmm "github.com/gueencode/rmmagent/shared"
 	"golang.org/x/sys/windows/registry"
 )
 

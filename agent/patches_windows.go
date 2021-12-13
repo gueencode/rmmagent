@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	rmm "github.com/gueencode/rmmagent/shared"
+	rmm "rmmagent/shared"
 )
 
 func (a *WindowsAgent) GetWinUpdates() {

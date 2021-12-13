@@ -3,7 +3,8 @@ package agent
 import (
 	"time"
 
-	rmm "github.com/gueencode/rmmagent/shared"
+	rmm "rmmagent/shared"
+
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/mgr"
 )

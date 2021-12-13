@@ -3,8 +3,9 @@ package agent
 import (
 	"encoding/json"
 
+	rmm "rmmagent/shared"
+
 	"github.com/StackExchange/wmi"
-	rmm "github.com/gueencode/rmmagent/shared"
 )
 
 func GetWin32_USBController() ([]interface{}, error) {

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	rmm "github.com/gueencode/rmmagent/shared"
+	rmm "rmmagent/shared"
 )
 
 func (a *WindowsAgent) RunAsService() {

@@ -3,8 +3,9 @@ package agent
 import (
 	"fmt"
 
-	rmm "github.com/gueencode/rmmagent/shared"
-	wapi "github.com/iamacarpet/go-win64api"
+	rmm "rmmagent/shared"
+
+	wapi "github.com/gueencode/go-win64api"
 )
 
 func (a *WindowsAgent) GetInstalledSoftware() []rmm.SoftwareList {

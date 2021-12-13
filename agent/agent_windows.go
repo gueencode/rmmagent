@@ -18,11 +18,12 @@ import (
 	"time"
 	"unsafe"
 
+	rmm "rmmagent/shared"
+
 	ps "github.com/elastic/go-sysinfo"
 	"github.com/go-resty/resty/v2"
 	"github.com/gonutz/w32/v2"
 	wapf "github.com/gueencode/go-win64api"
-	rmm "github.com/gueencode/rmmagent/shared"
 	nats "github.com/nats-io/nats.go"
 	"github.com/shirou/gopsutil/v3/cpu"
 	"github.com/shirou/gopsutil/v3/disk"

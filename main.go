@@ -7,7 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/gueencode/rmmagent/agent"
+	"rmmagent/agent"
+
 	"github.com/sirupsen/logrus"
 )
 

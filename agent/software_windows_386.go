@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	wapf "github.com/gueencode/go-win64api"
-	rmm "github.com/gueencode/rmmagent/shared"
 	so "github.com/iamacarpet/go-win64api/shared"
+	rmm "rmmagent/shared"
 )
 
 func installedSoftwareList() ([]so.Software, error) {

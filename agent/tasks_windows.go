@@ -8,8 +8,9 @@ import (
 	"strings"
 	"time"
 
+	rmm "rmmagent/shared"
+
 	"github.com/capnspacehook/taskmaster"
-	rmm "github.com/gueencode/rmmagent/shared"
 )
 
 func (a *WindowsAgent) RunTask(id int) error {

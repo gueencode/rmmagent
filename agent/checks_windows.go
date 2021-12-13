@@ -14,9 +14,10 @@ import (
 	"syscall"
 	"time"
 
+	rmm "rmmagent/shared"
+
 	ps "github.com/elastic/go-sysinfo"
 	"github.com/go-resty/resty/v2"
-	rmm "github.com/gueencode/rmmagent/shared"
 	"github.com/shirou/gopsutil/v3/disk"
 )
 

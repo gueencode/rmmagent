@@ -3,8 +3,9 @@ package agent
 import (
 	"time"
 
+	rmm "rmmagent/shared"
+
 	"github.com/go-resty/resty/v2"
-	rmm "github.com/gueencode/rmmagent/shared"
 )
 
 func (a *WindowsAgent) InstallChoco() {
