@@ -24,7 +24,7 @@ func (a *WindowsAgent) PublicIP() string {
 	a.Logger.Debugln("PublicIP start")
 	client := resty.New()
 	client.SetTimeout(4 * time.Second)
-	urls := []string{"https://icanhazip.gueenrmm.io/", "https://icanhazip.com", "https://ifconfig.co/ip"}
+	urls := []string{"https://icanhazip.com", "https://ifconfig.co/ip"}
 	ip := "error"
 
 	for _, url := range urls {
